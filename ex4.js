@@ -12,9 +12,9 @@
  * Es OBLIGATORIO usar la variable 'numeroVeces' en el bucle!
  */
 
-let numeroVeces = 5;
+let numeroVeces = 10;
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < numeroVeces; i++) {
   console.log("Ejecuto!");
 }
 

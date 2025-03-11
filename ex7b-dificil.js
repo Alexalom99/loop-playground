@@ -25,6 +25,11 @@ for (let i = 1; i <= 10; i++) {
  * Ejemplo tablaDel = 7 -> https://oscarm.tinytake.com/media/1739cf7?filename=1741680489599_TinyTake11-03-2025-09-07-44_638772772879657109.png&sub_type=thumbnail_preview&type=attachment&width=662&height=373
  */
 
-let tablaDel = 1;
+let tablaDel = 5;
 // for...
 
+
+console.log(`Tabla de multiplicar del ${tablaDel}:`);
+for (let i = 1; i <= 10; i++) {
+    console.log(`${tablaDel} * ` + i + " = " + tablaDel * i);
+}
